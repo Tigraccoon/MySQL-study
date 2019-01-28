@@ -1,0 +1,15 @@
+#test
+#Mon Jan 28 10:28:45 KST 2019
+url=jdbc\:mysql\://localhost/java?serverTimezone\=UTC
+password=java1235
+driver=com.mysql.cj.jdbc.Driver
+pwd=java1235
+id=java
+#test
+#Mon Jan 28 10:28:45 KST 2019
+url=jdbc\:mysql\://localhost/java?serverTimezone\=UTC
+password=java1235
+TT=TSET
+driver=com.mysql.cj.jdbc.Driver
+pwd=java1235
+id=java
