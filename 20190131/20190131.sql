@@ -69,6 +69,6 @@ SELECT * FROM emp;
 
 DESC emp;
 
-SELECT * FROM emp WHERE ename LIKE '철' ORDER BY ename;
+SELECT eno,ename,hiredate,sel FROM emp WHERE ename LIKE '찰스' ORDER BY ename;
 
 SELECT * FROM emp WHERE ename = '김찰스' ORDER BY ename;
