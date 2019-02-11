@@ -1,4 +1,4 @@
 driver=com.mysql.cj.jdbc.Driver
 pwd=java1235
 id=java
-url=jdbc\:mysql\://localhost/java?serverTimezone\=UTC
+url=jdbc\:mysql\://localhost/project2?serverTimezone\=UTC
