@@ -23,4 +23,4 @@ INSERT INTO member VALUES('user1','1111','홍길동','010-1111-1111','서울시 
 
 SELECT id,pwd,NAME,hp,address,email,amount,POINT,DATE FROM member ORDER BY id;
 
-
+SELECT id,pwd FROM member WHERE email LIKE 'admin@admin.com';
