@@ -48,4 +48,6 @@ INSERT INTO product (pname,price,pamount) VALUES('TeamViewer 1year serial number
 INSERT INTO product (pname,price,pamount) VALUES('GitHUB 1year serial number',99,500);
 INSERT INTO product (pname,price,pamount) VALUES('Norton Security 1year serial number',199,500);
 
+SELECT pcode,pname,price,pamount FROM product ORDER BY pcode;
+
 SELECT * FROM product;
