@@ -2,7 +2,7 @@ USE project2
 
 --회원 테이블
 CREATE TABLE member(
-id VARCHAR(100) NOT NULL PRIMARY KEY,
+id VARCHAR(100) NOT NULL,
 pwd VARCHAR(100) NOT NULL,
 NAME VARCHAR(50) NOT NULL,
 hp VARCHAR(50) NOT NULL,
@@ -10,7 +10,8 @@ address VARCHAR(150) NOT NULL,
 email VARCHAR(100) NOT NULL,
 amount INT DEFAULT 0,
 POINT INT DEFAULT 0,
-DATE DATE
+DATE DATE,
+PRIMARY KEY(id,email)
 );
 
 DROP TABLE member;
@@ -26,7 +27,7 @@ SELECT id,pwd,NAME,hp,address,email,amount,POINT,DATE FROM member ORDER BY id;
 
 SELECT id,pwd FROM member WHERE email LIKE 'admin@admin.com';
 
-
+SELECT id FROM member WHERE id='admin';
 
 --상품 테이블
 CREATE TABLE product(
