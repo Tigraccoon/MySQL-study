@@ -51,4 +51,6 @@ INSERT INTO product (pname,price,pamount) VALUES('Norton Security 1year serial n
 
 SELECT pcode,pname,price,pamount FROM product ORDER BY pcode;
 
+UPDATE product SET pname='Photoshop CC 2019 serial number',price=499,pamount=500 WHERE pcode=4;
+
 SELECT * FROM product;
